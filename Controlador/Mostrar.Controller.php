@@ -24,7 +24,6 @@
 						$smarty->assign('e','null');
 						$smarty->assign('vista',$_SESSION['op']);
 						$smarty->assign('usuario',$_SESSION['user']);
-						$smarty->assign('tipo',$_SESSION['tipo']);
 						$smarty->display('Listado.tpl'); 
 					}
 			}
